@@ -158,7 +158,7 @@ jobs:
         if: ${{ env.VERSION != 'master' }}
         uses: actions/checkout@v4
         with:
-          repository: rustdesk/rustdesk
+          repository: StrikerRUS/rustdesk
           ref: refs/tags/${{ env.VERSION }}
           submodules: recursive
 
@@ -166,7 +166,7 @@ jobs:
         if: ${{ env.VERSION == 'master' }}
         uses: actions/checkout@v4
         with:
-          repository: rustdesk/rustdesk
+          repository: StrikerRUS/rustdesk
           submodules: recursive
 
       - name: Set Swap Space
@@ -665,7 +665,7 @@ jobs:
         if: ${{ env.VERSION != 'master' }}
         uses: actions/checkout@v4
         with:
-          repository: rustdesk/rustdesk
+          repository: StrikerRUS/rustdesk
           ref: refs/tags/${{ env.VERSION }}
           submodules: recursive
 
@@ -673,7 +673,7 @@ jobs:
         if: ${{ env.VERSION == 'master' }}
         uses: actions/checkout@v4
         with:
-          repository: rustdesk/rustdesk
+          repository: StrikerRUS/rustdesk
           submodules: recursive
 
       - name: Download Binary
@@ -740,7 +740,7 @@ jobs:
         if: ${{ env.VERSION != 'master' }}
         uses: actions/checkout@v4
         with:
-          repository: rustdesk/rustdesk
+          repository: StrikerRUS/rustdesk
           ref: refs/tags/${{ env.VERSION }}
           submodules: recursive
 
@@ -748,7 +748,7 @@ jobs:
         if: ${{ env.VERSION == 'master' }}
         uses: actions/checkout@v4
         with:
-          repository: rustdesk/rustdesk
+          repository: StrikerRUS/rustdesk
           submodules: recursive
 
       - name: Download Binary
